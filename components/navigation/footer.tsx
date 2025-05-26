@@ -88,7 +88,7 @@ export default function Footer() {
                 <MapPin className="w-5 h-5 text-orange-500 mt-1 flex-shrink-0" />
                 <div>
                   <p className="text-gray-300 leading-relaxed">
-                    Al-Takhasosi Street, Al-Rahmaniyah, Riyadh 12343, Kingdom of Saudi Arabia
+                  صبةالخراسانه مطبوعه ديكورات صبة مرؤحه بالرياض
                   </p>
                 </div>
               </div>
@@ -100,7 +100,7 @@ export default function Footer() {
                   href="tel:+966500888750"
                   className="text-gray-300 hover:text-orange-500 transition-colors duration-300"
                 >
-                  (+966)0500888750
+(+966)0568912128
                 </a>
               </div>
 
@@ -111,8 +111,8 @@ export default function Footer() {
                   href="mailto:riyadfloor@gmail.com"
                   className="text-gray-300 hover:text-orange-500 transition-colors duration-300"
                 >
-                  riyadfloor@gmail.com
-                </a>
+alirahamndir1234@gmail.com    
+            </a>
               </div>
             </div>
           </div>

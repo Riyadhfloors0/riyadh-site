@@ -21,11 +21,11 @@ export default function Header() {
             <div className="flex flex-col sm:flex-row items-center gap-6 mb-2 sm:mb-0">
               <div className="flex items-center gap-2">
                 <MapPin className="w-4 h-4 text-orange-500" />
-                <span>Al-Rahmaniyah, Riyadh , Kingdom of Saudi Arabia</span>
+                <span>صبةالخراسانه مطبوعه ديكورات صبة مرؤحه بالرياض</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-orange-500" />
-                <span>riyadfloor@gmail.com</span>
+                <span>alirahamndir1234@gmail.com</span>
               </div>
             </div>
             <div className="flex gap-3">

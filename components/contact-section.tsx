@@ -190,7 +190,8 @@ export default function ContactSection() {
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Kuta</h3>
                     <p className="text-gray-600 text-sm leading-relaxed">
-                      Al-Takhasosi Street, Al-Rahmaniyah, Riyadh 12343, Kingdom of Saudi Arabia
+صبةالخراسانه مطبوعه ديكورات صبة مرؤحه بالرياض
+
                     </p>
                   </div>
                 </div>
@@ -204,7 +205,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Call Us</h3>
-                    <p className="text-gray-600 text-sm">(+966)0500888750</p>
+                    <p className="text-gray-600 text-sm">(+966)0568912128</p>
                   </div>
                 </div>
               </div>
@@ -217,7 +218,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Email Information</h3>
-                    <p className="text-gray-600 text-sm">riyadfloor@gmail.com</p>
+                    <p className="text-gray-600 text-sm">alirahamndir1234@gmail.com</p>
                   </div>
                 </div>
               </div>
@@ -230,20 +231,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Call Us</h3>
-                    <p className="text-gray-600 text-sm">(+966)0590756444</p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Call Us 3 */}
-              <div>
-                <div className="flex items-start space-x-4">
-                  <div className="bg-orange-500 p-3 rounded-md flex-shrink-0">
-                    <Phone className="w-6 h-6 text-white" />
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-gray-900 mb-1">Call Us</h3>
-                    <p className="text-gray-600 text-sm">(+966)0592662299</p>
+                    <p className="text-gray-600 text-sm">(+966)0599656273</p>
                   </div>
                 </div>
               </div>

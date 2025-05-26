@@ -10,7 +10,7 @@ const page = () => {
       <ContactSection />
       <MaxWidthWrapper>
 <div className='w-full h-[400px] mt-8 mb-8'>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d382.2012470653076!2d-1.9975102900159403!3d52.58438074566222!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487099801905df89%3A0xd64059c013588210!2sCar%20park%20B%20-%20Patients%20%26%20Visitors!5e0!3m2!1sen!2s!4v1738264108210!5m2!1sen!2s"
+      <iframe   src="https://www.google.com/maps?q=Stamped+Concrete+Riyadh&output=embed"
         width="100%"
         height="100%"
         style={{ border: 0 }}
