@@ -14,6 +14,7 @@ interface ServiceCardProps {
 }
 const ServiceCard = ({id,title, image, hoverContent}:ServiceCardProps) => {
   return (
+     <Link href={`/services/${id}`}>
       <div
                 key={id}
                 className="group relative overflow-hidden rounded-lg shadow-lg bg-white transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-2xl hover:z-10"
@@ -40,15 +41,16 @@ const ServiceCard = ({id,title, image, hoverContent}:ServiceCardProps) => {
                   <div className="absolute inset-x-6 bottom-6 opacity-0 transform translate-y-8 transition-all duration-500 group-hover:opacity-100 group-hover:translate-y-0">
                     <h3 className="text-xl font-bold mb-3">{ title}</h3>
                     <p className="text-gray-200 text-sm leading-relaxed mb-4">{ hoverContent}</p>
-                    <Link href={`/services/${id}`}>
+                   
                     <button className="flex items-center gap-2 text-orange-400 hover:text-orange-300 transition-colors text-sm font-medium">
                       Read More
                       <ArrowRight className="w-4 h-4" />
                     </button>
-                    </Link>
+                   
                   </div>
                 </div>
-              </div>
+              </div> 
+              </Link>
   )
 }
 
