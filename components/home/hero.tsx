@@ -18,7 +18,7 @@ export default function Hero() {
         <div className="relative z-10 mx-auto py-20">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
-              We Providing Best Quality <span className="underline decoration-primary decoration-8 ">Flooring</span> and Paving Service
+              We Provide Best Quality <span className="underline decoration-primary decoration-8 ">Flooring</span> and Paving Service
             </h1>
 
             <p className="text-xl text-gray-200 mb-6 font-medium">
