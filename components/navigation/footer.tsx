@@ -41,7 +41,7 @@ export default function Footer() {
 
               {/* Social Media Icons */}
               <div className="flex gap-3">
-                <Link href="https://wa.me/+9660568912128" target="_blank" rel="noopener noreferrer">
+                <Link href="https://wa.me/+966599656273" target="_blank" rel="noopener noreferrer">
                           <Button>
                            Contact on Whatsapp
                           </Button>

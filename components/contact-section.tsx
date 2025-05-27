@@ -239,7 +239,7 @@ export default function ContactSection() {
             </div>
 
             {/* Social Media */}
-            <Link href="https://wa.me/+9660568912128" target="_blank" rel="noopener noreferrer">
+            <Link href="https://wa.me/+966599656273" target="_blank" rel="noopener noreferrer">
            <Button>
             Contact on Whatsapp
            </Button>

@@ -29,7 +29,7 @@ export default function Header() {
               </div>
             </div>
             <div className="flex gap-3">
-             <Link href="https://wa.me/+9660568912128" target="_blank" rel="noopener noreferrer">
+             <Link href="https://wa.me/+966599656273" target="_blank" rel="noopener noreferrer">
            <Button className="bg-white text-black">
             Contact on Whatsapp
            </Button>
