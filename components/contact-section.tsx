@@ -3,7 +3,7 @@
 import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
 import * as z from "zod"
-import { Building2, Phone, Mail, Facebook, Twitter, Instagram, Linkedin, Youtube } from "lucide-react"
+import { Building2, Phone, Mail } from "lucide-react"
 import { toast } from "sonner"
 import emailjs from "@emailjs/browser"
 
@@ -11,6 +11,7 @@ import { Button } from "@/components/ui/button"
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
+import Link from "next/link"
 
 const formSchema = z.object({
   name: z.string().min(2, {
@@ -238,46 +239,11 @@ export default function ContactSection() {
             </div>
 
             {/* Social Media */}
-            <div>
-              <h3 className="font-semibold text-gray-900 mb-4">Our Social Media</h3>
-              <div className="flex space-x-3">
-                <a
-                  href="#"
-                  className="bg-orange-500 hover:bg-orange-600 p-3 rounded-full transition-colors duration-200"
-                  aria-label="Facebook"
-                >
-                  <Facebook className="w-5 h-5 text-white" />
-                </a>
-                <a
-                  href="#"
-                  className="bg-orange-500 hover:bg-orange-600 p-3 rounded-full transition-colors duration-200"
-                  aria-label="Twitter"
-                >
-                  <Twitter className="w-5 h-5 text-white" />
-                </a>
-                <a
-                  href="#"
-                  className="bg-orange-500 hover:bg-orange-600 p-3 rounded-full transition-colors duration-200"
-                  aria-label="Instagram"
-                >
-                  <Instagram className="w-5 h-5 text-white" />
-                </a>
-                <a
-                  href="#"
-                  className="bg-orange-500 hover:bg-orange-600 p-3 rounded-full transition-colors duration-200"
-                  aria-label="LinkedIn"
-                >
-                  <Linkedin className="w-5 h-5 text-white" />
-                </a>
-                <a
-                  href="#"
-                  className="bg-orange-500 hover:bg-orange-600 p-3 rounded-full transition-colors duration-200"
-                  aria-label="YouTube"
-                >
-                  <Youtube className="w-5 h-5 text-white" />
-                </a>
-              </div>
-            </div>
+            <Link href="https://wa.me/+9660568912128" target="_blank" rel="noopener noreferrer">
+           <Button>
+            Contact on Whatsapp
+           </Button>
+           </Link>
           </div>
         </div>
       </div>

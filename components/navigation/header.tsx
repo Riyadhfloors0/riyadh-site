@@ -1,7 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { Menu, X, MapPin, Mail, Facebook, Twitter, Instagram, Youtube } from "lucide-react"
+import { Menu, X, MapPin, Mail} from "lucide-react"
 import { useState } from "react"
 import MaxWidthWrapper from "../globals/mx-width-container"
 import Link from "next/link"
@@ -29,10 +29,11 @@ export default function Header() {
               </div>
             </div>
             <div className="flex gap-3">
-              <Facebook className="w-4 h-4 hover:text-orange-500 cursor-pointer transition-colors" />
-              <Twitter className="w-4 h-4 hover:text-orange-500 cursor-pointer transition-colors" />
-              <Instagram className="w-4 h-4 hover:text-orange-500 cursor-pointer transition-colors" />
-              <Youtube className="w-4 h-4 hover:text-orange-500 cursor-pointer transition-colors" />
+             <Link href="https://wa.me/+9660568912128" target="_blank" rel="noopener noreferrer">
+           <Button className="bg-white text-black">
+            Contact on Whatsapp
+           </Button>
+           </Link>
             </div>
           </div>
         </MaxWidthWrapper>
@@ -44,6 +45,7 @@ export default function Header() {
           <div className="mx-auto">
             <div className="flex justify-between items-center py-4">
               {/* Logo */}
+              <Link href='/'>
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-orange-500 rounded-lg flex items-center justify-center mr-3">
                   <div className="w-8 h-8 border-2 border-white rounded transform rotate-45"></div>
@@ -53,6 +55,7 @@ export default function Header() {
                   <p className="text-sm text-gray-600">FLOORS</p>
                 </div>
               </div>
+              </Link>
 
               {/* Desktop Navigation */}
               <div className="hidden lg:flex items-center space-x-8">

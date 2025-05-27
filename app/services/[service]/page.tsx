@@ -1,12 +1,11 @@
 'use client'
 import Image from "next/image"
 import {useParams } from "next/navigation"
-import { Play, Check } from "lucide-react"
-import { Button } from "@/components/ui/button"
 import { servicesData } from "@/constants/service-data"
 import PageHero from "@/components/page-hero"
 import ContactSection from "@/components/contact-section"
 import Link from "next/link"
+import { Check } from "lucide-react"
 
 
 
@@ -115,17 +114,12 @@ export default function ServicePage() {
             <div className="relative">
               <div className="relative overflow-hidden rounded-lg">
                 <Image
-                  src={serviceData.featuredImage || "/placeholder.svg"}
+                  src={serviceData.gridImages[1] || "/placeholder.svg"}
                   alt={serviceData.featuredImageTitle}
                   width={600}
                   height={400}
                   className="w-full h-auto object-cover"
                 />
-                <div className="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center">
-                  <Button size="lg" className="bg-orange-500 hover:bg-orange-600 rounded-full w-16 h-16 p-0">
-                    <Play className="w-8 h-8 text-white ml-1" />
-                  </Button>
-                </div>
               </div>
               <p className="text-center text-gray-900 mt-4 font-semibold text-lg">{serviceData.featuredImageTitle}</p>
             </div>
